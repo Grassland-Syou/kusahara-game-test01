@@ -1,0 +1,26 @@
+{
+  "scenes": {
+    "null": {
+      "scenario": {},
+      "tag": {}
+    }
+  },
+  "charas": {
+    "ヴロヒア": "Vrochia",
+    "この手紙を配達する？": "Should I delivery this letter?",
+    "サクラ柄の手紙にする？": "",
+    "かわいらしい手紙にする？": "",
+    "シンプルな手紙にする？": "",
+    "派手な手紙にする？": "",
+    "…簡素な手紙にする？": ""
+  },
+  "tags": {
+    "glink": [
+      "text"
+    ],
+    "ptext": [
+      "text"
+    ]
+  },
+  "systems": {}
+}

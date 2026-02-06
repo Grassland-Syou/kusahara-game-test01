@@ -1,0 +1,16 @@
+/* ゲーム内のリンクとして使われる span をまとめて指定 */
+span.event-setting-element,
+span.char.current_span {
+  cursor: pointer;    /* マウスカーソルを手にする */
+  color: #00f;        /* リンク文字の色 */
+  text-decoration: none; /* 下線なし */
+}
+
+/* ホバー時に「任意のマーク」を表示 */
+span.event-setting-element:hover::before,
+span.char.current_span:hover::before {
+  content:">";       /* 表示文字 */
+  position: absolute;  /* 文字を絶対配置 */
+  left: -1em;          /* リンクの左側に出す */
+}
+
