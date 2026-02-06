@@ -37,8 +37,8 @@
 
 ; レイヤーを解放
 [freeimage layer=1]
-;背景画像を main.jpg に切り替え、フェード時間は 100ms
-[bg storage="main.jpg" time="100"]
+;背景画像を Main.jpg に切り替え、フェード時間は 100ms
+[bg storage="Main.jpg" time="100"]
 ; キャラクター（ヴロヒア）登場
 ; 画面左端からの絶対座標で表示（例：x=700pxの位置に表示）
 [chara_show name="Vrochia" face="angry" left="700"]
