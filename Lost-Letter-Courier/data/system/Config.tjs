@@ -17,13 +17,13 @@
 // ◆ タイトル
 // ウィンドウのキャプション(タイトル)および
 // ブラウザの場合は、タイトルに指定されます
-;System.title = 落とし手紙配達人
+;System.title = 落とし手紙配達人;
 
 
 
 // ◆ プロジェクト一意の識別名称　ティラノスクリプト独自設定
 // プロジェクト固有の文字列を指定してください。特に同一ドメイン上にプロジェクトを配置する場合は必ず指定してください
-;projectID = tyranoproject;
+;projectID = Lost-Letter-Courier;
 
 // ◆ リリースバージョンを数値で指定します。全角・英数字は使用できません。
 // パッチ機能において重要な役割を果たします。パッチファイルで指定されたバージョンがこの数値より大きい場合はパッチが適応されます。
@@ -140,10 +140,10 @@
 ;mediaFormatDefault = ogg;
 
 // ◆ BGMの音量 0 〜 100 で指定します。
-;defaultBgmVolume = 100;
+;defaultBgmVolume = 40;
 
 // ◆ SEの音量 0 〜 100 で指定します。
-;defaultSeVolume = 100;
+;defaultSeVolume = 40;
 
 // ◆ 動画の音量 0 〜 100 で指定します。
 ;defaultMovieVolume = 100;
@@ -212,7 +212,7 @@
 // バックログ機能用にテキストの最大保持数を保存できます。
 // 保存されたデータはtf.system.backlog に配列として格納されます。
 // 0の場合、保存を行いません。
-;maxBackLogNum = 50;
+;maxBackLogNum = 100;
 
 // ◆ ラベル記録
 // 重要：既読管理を有効にしたい場合は必ずtrueを指定して下さい
@@ -229,16 +229,16 @@
 // 吉里吉里/KAGとは仕様が異なりますのでご注意下さい。
 // つまり、jump で他のシナリオファイルにジャンプしただけでは、記録されません。
 // シナリオファイルの最初にラベルを配置しておくと記録されます
-;autoRecordLabel = false;
+;autoRecordLabel = true;
 
 // ◆ 既読管理
 // 既読管理に関連する設定です
 // 以下を有効にするには autoRecordLabel に trueを指定する必要があります
 // 未読スキップを有効にするかどうかを指定します。 true を指定すると有効です
-;unReadTextSkip = false 　
+;unReadTextSkip = false;
 
 //既読のテキストの色(0x000000形式)を変更できます。default を指定すると既読テキストでも色は変わりません。
-;alreadyReadTextColor = 0x87cefa
+;alreadyReadTextColor = default;
 
 // ◆ 初期状態の前景レイヤの数
 // 必要なければ 0 を指定してかまいません。
@@ -311,7 +311,7 @@
 // ここをtrueにしておくことでブラウザのコンソールログに各種値が出力されるようになります
 //　ゲームリリース時は必ずfalseにしておきましょう
 
-;debugMenu.visible = true;
+;debugMenu.visible = false;
 
 
 //-------------------------------------------- メッセージレイヤの設定 -----
@@ -367,10 +367,10 @@
 
 // ◆ 文字の色
 // デフォルトの文字の色を 0xRRGGBB 形式で指定します。
-;defaultChColor = 0xffffff;  // deffont タグの color 属性に相当
+;defaultChColor = 0x000000;  // deffont タグの color 属性に相当
 
 
-// ◆ 文字をボールドにするか
+// ◆ 文字をボールドにするか(太字のこと）
 // する場合は true, しない場合は false を指定します。
 ;defaultBold = false; // deffont タグの bold 属性に相当
 
