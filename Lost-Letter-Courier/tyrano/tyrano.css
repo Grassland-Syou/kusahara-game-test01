@@ -187,8 +187,8 @@ body {
     padding: 20px;
     border: 1px solid #798993;
     border-radius: 0;
-    color: #20b2aa;
-    background: rgba(251, 250, 249, 0.5);
+    color: #000000;
+    background: rgba(251, 250, 249, 0.8);
     font-weight: normal;
     text-align: left;
     line-height: 1.6em;

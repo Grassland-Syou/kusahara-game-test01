@@ -46,7 +46,7 @@
 
 ;このゲームで登場するキャラクターを宣言
 ;Vrochia
-[chara_new  name="Vrochia" storage="chara/Vrochia/normal.png" jname="先輩"  ]
+[chara_new  name="Vrochia" storage="chara/Vrochia/normal.png" jname="ヴロヒア"  ]
 ;キャラクターの表情登録
 [chara_face name="Vrochia" face="angry" storage="chara/Vrochia/angry.png"]
 [chara_face name="Vrochia" face="angry2" storage="chara/Vrochia/angry2.png"]
