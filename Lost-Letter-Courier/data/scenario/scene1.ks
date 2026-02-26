@@ -455,44 +455,8 @@
 
 ;[if exp="sf.yourName !== '朝暉'"]
 
-;ではないとき
-[if exp="sf.yourName !== '朝暉' || sf.yourName !== 'あさき' || sf.yourName !== 'アサキ' || sf.yourName !== 'アナト || sf.yourName !== 'ANATO"]
-#ヴロヒア
-はい、ありがとうございます。[p]
-[chara_mod  name="Vrochia" face="wow" ]
-提出しておきますね……って、あれ？[p]
-
-#
-ヴロヒアが、渡した書類を呆然と見つめる。[p]
-
-#
-どうしたの？[p]
-
-[chara_mod  name="Vrochia" face="sad" ]
-#ヴロヒア
-…ああ、いえ。[p]
-そうですか。[p]
-[chara_mod  name="Vrochia" face="normal" ]
-名前、[emb exp="sf.yourName"]って言うんですね。[p]
-
-#
-そう言えば確かに、なんの記憶もないのに自分の名前だけはするすると書けた。[l][r]
-書いた時は不安なんてなかったのに、あらためて言われると間違っていたかもしれないと落ち着かない気分になる。[p]
-
-#
-…間違ってた？[p]
-
-#ヴロヒア
-いいえ。[l]素敵な名前だと思います。[p]
-[chara_mod  name="Vrochia" face="normal3" ]
-[emb exp="sf.yourName"]、よろしくお願いしますね。[p]
-
-#
-優しい言葉に頷く。[l][r]
-ヴロヒアに名前を呼ばれると、どこかくすぐったい気持ちが胸をなぞった。[p]
-
 ;アナト
-[elsif exp="sf.yourName == 'アナト' || sf.yourName == 'ANATO'"]
+[if exp="sf.yourName == 'アナト' || sf.yourName == 'ANATO'"]
 #ヴロヒア
 はい、ありがとうございます。[p]
 [chara_mod  name="Vrochia" face="wow" ]
@@ -555,7 +519,7 @@
 
 ふーん。[l]そっか。[p]
 
-二人して緩んだ表情で顔を見合わせて、息をつく。
+二人して緩んだ表情で顔を見合わせて、息をつく。[p]
 
 #ヴロヒア
 覚えていてくれてありがとうございます、[emb exp="sf.yourName"]。[p]
@@ -565,9 +529,8 @@
 ヴロヒアに名前を呼ばれると、どこかくすぐったい気持ちが胸をなぞって仕方なかった。[p]
 
 
-[else]
-
-; 名前が朝暉であるとき
+;あさき
+[elsif exp="sf.yourName == '朝暉' || sf.yourName == 'あさき' || sf.yourName == 'アサキ'"]
 [chara_mod  name="Vrochia" face="angry3" ]
 #ヴロヒア
 はい、ありがとうございます。[p]
@@ -616,6 +579,44 @@
 #
 優しい言葉にゆっくりと頷く。[l][r]
 ヴロヒアに名前を呼ばれると、どこかくすぐったい気持ちが胸をなぞって仕方なかった。[p]
+
+[else]
+
+; 名前が朝暉であるとき
+
+#ヴロヒア
+はい、ありがとうございます。[p]
+[chara_mod  name="Vrochia" face="wow" ]
+提出しておきますね……って、あれ？[p]
+
+#
+ヴロヒアが、渡した書類を呆然と見つめる。[p]
+
+#
+どうしたの？[p]
+
+[chara_mod  name="Vrochia" face="sad" ]
+#ヴロヒア
+…ああ、いえ。[p]
+そうですか。[p]
+[chara_mod  name="Vrochia" face="normal" ]
+名前、[emb exp="sf.yourName"]って言うんですね。[p]
+
+#
+そう言えば確かに、なんの記憶もないのに自分の名前だけはするすると書けた。[l][r]
+書いた時は不安なんてなかったのに、あらためて言われると間違っていたかもしれないと落ち着かない気分になる。[p]
+
+#
+…間違ってた？[p]
+
+#ヴロヒア
+いいえ。[l]素敵な名前だと思います。[p]
+[chara_mod  name="Vrochia" face="normal3" ]
+[emb exp="sf.yourName"]、よろしくお願いしますね。[p]
+
+#
+優しい言葉に頷く。[l][r]
+ヴロヒアに名前を呼ばれると、どこかくすぐったい気持ちが胸をなぞった。[p]
 
 [endif]
 
