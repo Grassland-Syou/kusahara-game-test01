@@ -29,7 +29,7 @@
 @playbgm time="3000" storage=titleBGM.mp3 loop=true volume=40
 
 ; =================================
-[if exp="sf.letter_0_Flag == 1"]
+[if exp="sf.ending0_wo_mita == 1"]
 ;タイトル背景を Title2.jpg に設定
 @bg storage ="title2.jpg" time=100
 ; CG開け
